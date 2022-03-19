@@ -1,0 +1,85 @@
+ *{margin: 0; padding: 0;}
+
+body {
+  background-color: #1c1a19;
+  color: white;
+}
+
+.social-media img {
+  margin-right: 16px;
+}
+
+.social-media {
+  padding-left: 18px;
+  margin-top: 22px;
+}
+
+.container {
+    margin-left: 24px;
+}
+
+.header {
+    height: 50px;
+    background: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.header > a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.logo-message {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    margin-top: 80px;
+}
+
+.dev-intro {
+    position: static;
+    width: 327px;
+    height: 27px;
+    left: 24px;
+    top: 256px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+
+    color: #fff5e1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.background {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 24px;
+}
+
+.corner-image {
+  position: absolute;
+  right: 0;
+  top: 250px;
+}
