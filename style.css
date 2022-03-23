@@ -1,11 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #1c1a19;
   color: white;
+  width: 375px;
+  margin: 0;
+  padding: 0;
 }
 
 .social-media img {
@@ -13,29 +11,43 @@ body {
 }
 
 .social-media {
-  padding-left: 18px;
+  padding: 18px;
   margin-top: 22px;
+  display: flex;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin-right: 0;
+  list-style: none;
 }
 
 .container {
-  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .header {
-  height: 50px;
+  height: 48px;
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px;
+  margin-top: ;
 }
 
-.header > a {
+.header a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  color: white;
+  text-decoration: none;
+  padding-top: 58px;
+}
+
+.hamburger {
+  padding-top: 58px;
 }
 
 .logo-message {
@@ -78,8 +90,16 @@ body {
   margin-right: 24px;
 }
 
-.corner-image {
-  position: absolute;
-  right: 0;
-  top: 250px;
+.main-container {
+  background-image: url("image/illustration-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-position-y: 100px;
+  padding-bottom: 0;
+  height: 590px;
+}
+
+.social-connect {
+  margin-left: 10px;
+  padding: 10px;
 }
