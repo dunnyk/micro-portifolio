@@ -185,11 +185,21 @@ ul.work-list {
   font-weight: bold;
 }
 
-/* button:hover {
-  background: var(--color-primary-light);
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  color: black;
-} */
+.btn1:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background: #fff5e1;
+}
+
+.btn1:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.btn1:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
 
 .btn:hover {
   border: 1px solid #f55800;
