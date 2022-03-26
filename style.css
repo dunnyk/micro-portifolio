@@ -106,11 +106,10 @@ body {
 }
 
 .work-section {
-  margin: 0 12px;
-  height: 730px;
+  height: 880px;
 }
 
-.work-title h1 {
+.work-title h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
