@@ -14,7 +14,7 @@ body {
   margin-top: 22px;
   display: flex;
   height: 400px;
-  background-absoluterepeat: no-repeat;
+  background-repeat: no-repeat;
   margin-right: 0;
   list-style: none;
 }
@@ -302,7 +302,6 @@ ul.work-list {
 .about-me hr {
   position: relative;
   top: 255px;
-
 }
 
 .technology h2 {
