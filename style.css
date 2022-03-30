@@ -393,11 +393,6 @@ form button {
   margin-top: 245.73px;
 }
 
-form button:active {
-  color: #f4f1f0;
-  background-color: #e05304;
-}
-
 form button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
@@ -409,9 +404,9 @@ form button:hover {
   background: #fff5e1;
 }
 
-form button:hover {
+form button:active {
   border: 1px solid #f55800;
-  color: #E05304;
+  color: #e05304;
   background: #fff5e1;
 }
 
