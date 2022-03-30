@@ -409,6 +409,12 @@ form button:hover {
   background: #fff5e1;
 }
 
+form button:hover {
+  border: 1px solid #f55800;
+  color: #E05304;
+  background: #fff5e1;
+}
+
 .sociallist li {
   padding: 9px;
 }
