@@ -478,17 +478,23 @@ form textarea {
 /* CSS ANIMATIONS */
 
 
-
-
-
-.social-media li {
-  width: 80px;
-  height: 80px;
-  background-color: greenyellow;
+.animations {
+  transform: scale(1.1);
 }
 
 
-.scaled {
-  transform: scale(0.5); /* Equal to scaleX(0.7) scaleY(0.7) */
+.social-media li {
+  width: 50px;
+  height: 50px;
   background-color: pink;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translatX(0);
+  }
 }
