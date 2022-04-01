@@ -473,3 +473,22 @@ form textarea {
   height: 114px;
   width: 327px;
 }
+
+
+/* CSS ANIMATIONS */
+
+
+
+
+
+.social-media li {
+  width: 80px;
+  height: 80px;
+  background-color: greenyellow;
+}
+
+
+.scaled {
+  transform: scale(0.5); /* Equal to scaleX(0.7) scaleY(0.7) */
+  background-color: pink;
+}
