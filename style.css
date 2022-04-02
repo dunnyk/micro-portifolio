@@ -490,4 +490,19 @@ form textarea {
   0% {
     transform: translateX(-100%);
   }
+
+  100% {
+    transform: translatX(0);
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 30%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
