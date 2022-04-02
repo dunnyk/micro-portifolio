@@ -498,3 +498,14 @@ form textarea {
     transform: translatX(0);
   }
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 30%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
