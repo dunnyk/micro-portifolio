@@ -110,7 +110,7 @@ body {
 }
 
 .work-title h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -292,7 +292,7 @@ form button {
 }
 
 .paragraph {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -302,7 +302,7 @@ form button {
 
 .Profesional {
   margin: 84px 16px 12px 16px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -348,7 +348,7 @@ form button {
 }
 
 .technology h2 {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -362,7 +362,7 @@ form button {
 .technology li {
   list-style: none;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -474,14 +474,11 @@ form textarea {
   width: 327px;
 }
 
-
 /* CSS ANIMATIONS */
-
 
 .animations {
   transform: scale(1.1);
 }
-
 
 .social-media li {
   width: 50px;
@@ -492,9 +489,5 @@ form textarea {
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translatX(0);
   }
 }
